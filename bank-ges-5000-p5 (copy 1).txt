@@ -1,0 +1,16 @@
+strict digraph "" {
+	CreditScore -> IsActiveMember	[weight=-1];
+	Geography -> Age	[weight=-1];
+	Geography -> Balance	[weight=1];
+	Geography -> Exited	[weight=-1];
+	Gender -> Exited	[weight=-1];
+	Age -> IsActiveMember	[weight=1];
+	Age -> Exited	[weight=1];
+	Tenure -> HasCrCard	[weight=-1];
+	Balance -> NumOfProducts	[weight=-1];
+	Balance -> Exited	[weight=-1];
+	NumOfProducts -> Exited	[weight=-1];
+	HasCrCard -> IsActiveMember	[weight=1];
+	IsActiveMember -> Exited	[weight=1];
+	EstimatedSalary;
+}

@@ -1,0 +1,50 @@
+x0
+x1
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x10
+x0
+x1
+x2
+x4
+x5
+x6
+x5
+{'update1': [[5, 1, ()], [6, 5, [1]], [10, 6, ()], [3, 10, ()], [8, 10, (3,)], [10, 5, ()], [10, 1, ()], [8, 3, ()], [2, 10, (3,)], [8, 0, ()], [7, 4, ()], [3, 1, ()], [2, 3, ()], [7, 8, (3,)]], 'update2': [[3, 2, ()]], 'G_step1': [<pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d7ccf40>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d768610>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d7cceb0>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d768670>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d806d90>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d775fa0>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d768d90>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d778af0>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d778e50>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d77eb20>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d788fa0>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d788d90>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d78cee0>, <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac8d78cc40>], 'G_step2': [<pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac70794c70>], 'G': <pytrad.graph.GeneralGraph.GeneralGraph object at 0x7fac70794c70>, 'score': 2536047.5689821327}
+Graph Nodes:
+x0;x1;x2;x3;x4;x5;x6;x7;x8;x9;x10
+
+Graph Edges:
+1. x8 --> x0
+2. x3 --> x1
+3. x1 --> x5
+4. x10 --> x1
+5. x10 --> x2
+6. x3 --> x8
+7. x3 --> x10
+8. x4 --- x7
+9. x6 --> x5
+10. x10 --> x5
+11. x10 --> x6
+12. x7 --> x8
+13. x8 --> x10
+
+[<pytrad.graph.GraphNode.GraphNode object at 0x7fac707949d0>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac70794df0>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac70794d90>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac70794b20>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac70794850>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac70794fd0>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac70794bb0>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac70794d60>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac70794c40>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac707947c0>, <pytrad.graph.GraphNode.GraphNode object at 0x7fac70794910>]
+<class 'pytrad.graph.GeneralGraph.GeneralGraph'>
+[[ 0  0  0  0  0  0  0  0  1  0  0]
+ [ 0  0  0  1  0 -1  0  0  0  0  1]
+ [ 0  0  0  0  0  0  0  0  0  0  1]
+ [ 0 -1  0  0  0  0  0  0 -1  0 -1]
+ [ 0  0  0  0  0  0  0 -1  0  0  0]
+ [ 0  1  0  0  0  0  1  0  0  0  1]
+ [ 0  0  0  0  0 -1  0  0  0  0  1]
+ [ 0  0  0  0 -1  0  0  0 -1  0  0]
+ [-1  0  0  1  0  0  0  1  0  0 -1]
+ [ 0  0  0  0  0  0  0  0  0  0  0]
+ [ 0 -1 -1  1  0 -1 -1  0  1  0  0]]
